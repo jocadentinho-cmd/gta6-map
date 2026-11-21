@@ -1,0 +1,381 @@
+[
+  {
+    "id": "carro_001",
+    "name": "Creado",
+    "category": "carro",
+    "subtype": "muscle",
+    "rarity": "raro",
+    "region": "Vice City Metro",
+    "x": 740,
+    "y": 340,
+    "position_precision": "aproximada",
+    "description": "Muscle car moderno inspirado no Dodge Challenger, visto no Trailer 1 circulando pelas ruas de Vice City. Design agressivo com faixa central no capô.",
+    "tip": "Spawn aleatório em ruas de Vice City Metro, mais frequente à noite perto de áreas de corrida ilegal.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Creado",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "carro_002",
+    "name": "PMP 700",
+    "category": "carro",
+    "subtype": "sedan",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 760,
+    "y": 360,
+    "position_precision": "aproximada",
+    "description": "Sedan de luxo de quatro portas, sucessor do PMP 600. Visual mais angular e moderno, visto no Tráfico de Vice City no Trailer 1.",
+    "tip": "Comum no tráfego de Vice City, especialmente em áreas comerciais e centrais durante o dia.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/PMP_700",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "carro_003",
+    "name": "Montagne XL",
+    "category": "carro",
+    "subtype": "suv",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 730,
+    "y": 380,
+    "position_precision": "aproximada",
+    "description": "SUV grande de primeira geração (baseado no Ford Expedition), visto no Trailer 1. Versão civil do Police Montagne.",
+    "tip": "Frequente em áreas suburbanas de Vice City e estradas que ligam a Leonida Keys.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Montagne_XL",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "carro_004",
+    "name": "Ganado",
+    "category": "carro",
+    "subtype": "pickup",
+    "rarity": "comum",
+    "region": "Leonida Keys",
+    "x": 890,
+    "y": 680,
+    "position_precision": "aproximada",
+    "description": "Picape utilitária robusta, vista no Trailer 1 nas cenas das Keys. Ideal para terreno misto asfalto/terra.",
+    "tip": "Comum nas estradas das Leonida Keys e docas de Port Gellhorn. Spawn garantido em alguns postos de gasolina das ilhas.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Ganado",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "carro_005",
+    "name": "Bison 1800",
+    "category": "carro",
+    "subtype": "pickup",
+    "rarity": "comum",
+    "region": "Panhandle",
+    "x": 210,
+    "y": 190,
+    "position_precision": "aproximada",
+    "description": "Picape de trabalho segunda geração (baseada em Chevrolet Silverado/GMC Sierra), vista no Trailer 1 em áreas rurais.",
+    "tip": "Spawn em fazendas, postos de gasolina de estrada e canteiros de obras no Panhandle e condados norte.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Bison_1800",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "carro_006",
+    "name": "Alvino V1",
+    "category": "carro",
+    "subtype": "moto",
+    "rarity": "raro",
+    "region": "Ambrosia",
+    "x": 450,
+    "y": 280,
+    "position_precision": "aproximada",
+    "description": "Motocicleta esportiva de alta performance (estilo Ducati Panigale), vista em screenshots oficiais na região de Ambrosia.",
+    "tip": "Aparece em concessionárias de veículos de luxo em Vice City e Ambrosia. Também em eventos de corrida noturnos.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Alvino_V1",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Screenshots"
+    ]
+  },
+  {
+    "id": "carro_007",
+    "name": "Sovereign",
+    "category": "carro",
+    "subtype": "moto",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 770,
+    "y": 330,
+    "position_precision": "aproximada",
+    "description": "Motocicleta cruiser estilo Harley-Davidson, vista em screenshots oficiais. Popular entre gangues de motoqueiros.",
+    "tip": "Comum em bares de motoqueiros, postos de gasolina na saída da cidade e encontros de clubes nas Keys.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Sovereign",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Screenshots"
+    ]
+  },
+  {
+    "id": "carro_008",
+    "name": "Tulip M-100 Donked",
+    "category": "carro",
+    "subtype": "muscle",
+    "rarity": "mitico",
+    "region": "Vice City Metro",
+    "x": 750,
+    "y": 350,
+    "position_precision": "aproximada",
+    "description": "Versão 'donked' (rodas gigantes, suspensão levantada) do Tulip M-100. Apenas em leaks, não confirmado em material oficial.",
+    "tip": "RUMOR: Pode spawnar em encontros de carros modificados em Vice City à noite. NÃO CONFIRMADO.",
+    "confidence": "baixa",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Vehicles_in_GTA_VI#New_vehicles"
+    ]
+  },
+  {
+    "id": "arma_001",
+    "name": "Baseball Bat",
+    "category": "arma",
+    "subtype": "corpo_a_corpo",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 745,
+    "y": 355,
+    "position_precision": "aproximada",
+    "description": "Taco de beisebol de madeira, arma corpo a corpo básica. Vista no Trailer 1 em cena de confronto.",
+    "tip": "Encontrada em lojas de artigos esportivos, vestiários de estádios e às vezes largada por NPCs agressivos.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Baseball_Bat",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "arma_002",
+    "name": "Hammer",
+    "category": "arma",
+    "subtype": "corpo_a_corpo",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 755,
+    "y": 345,
+    "position_precision": "aproximada",
+    "description": "Martelo de carpinteiro, arma corpo a corpo pesada. Vista no Trailer 1 sendo usada por Jason.",
+    "tip": "Canteiros de obras, lojas de ferragens, garagens residenciais. Boa para arrombar portas/veículos.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Hammer",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "arma_003",
+    "name": "Pool Cue",
+    "category": "arma",
+    "subtype": "corpo_a_corpo",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 735,
+    "y": 365,
+    "position_precision": "aproximada",
+    "description": "Taco de sinuca, visto em screenshots oficiais na casa de Cal Hampton. Alcance maior que taco de beisebol.",
+    "tip": "Bares com mesas de sinuca, salões de jogos, casa de Cal Hampton (missão relacionada).",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Pool_Cue",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Screenshots"
+    ]
+  },
+  {
+    "id": "arma_004",
+    "name": "Mustang .357",
+    "category": "arma",
+    "subtype": "pistola",
+    "rarity": "raro",
+    "region": "Ambrosia",
+    "x": 450,
+    "y": 280,
+    "position_precision": "aproximada",
+    "description": "Revólver de grande calibre .357 Magnum, visto em screenshots oficiais na região de Ambrosia. Alta precisão e dano.",
+    "tip": "Lojas de armas (Ammu-Nation) após progressão de história. Também em cofres de mansões em Ambrosia.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Mustang_.357",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Screenshots"
+    ]
+  },
+  {
+    "id": "arma_005",
+    "name": "Pistol",
+    "category": "arma",
+    "subtype": "pistola",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 750,
+    "y": 350,
+    "position_precision": "aproximada",
+    "description": "Pistola semi-automática padrão (baseada na Glock 17), vista no Trailer 1 e artwork promocional. Arma inicial provável.",
+    "tip": "Disponível desde o início em Ammu-Nation. Policiais e seguranças carregam. Spawn em delegacias.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Pistol_(HD_Universe)",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_1"
+    ]
+  },
+  {
+    "id": "arma_006",
+    "name": "Polymer Pistol",
+    "category": "arma",
+    "subtype": "pistola",
+    "rarity": "comum",
+    "region": "Vice City Metro",
+    "x": 760,
+    "y": 340,
+    "position_precision": "aproximada",
+    "description": "Pistola moderna de polímero (estilo Glock 19/43X), vista em screenshots com Boobie Ike. Mais compacta que a Pistol padrão.",
+    "tip": "Ammu-Nation, lojas de penhor, spawn em veículos de gangues e seguranças privados.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Polymer_Pistol",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Screenshots"
+    ]
+  },
+  {
+    "id": "arma_007",
+    "name": "Capo Pistol",
+    "category": "arma",
+    "subtype": "pistola",
+    "rarity": "raro",
+    "region": "Port Gellhorn",
+    "x": 520,
+    "y": 580,
+    "position_precision": "aproximada",
+    "description": "Pistola personalizada vista em screenshots com Raul Bautista. Detalhes dourados/perolados, provável arma de chefe de quadrilha.",
+    "tip": "Drop de chefes de missão em Port Gellhorn. Possível recompensa de missão da storyline de Raul Bautista.",
+    "confidence": "media",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Weapons_in_GTA_VI#Handguns",
+      "https://gta.fandom.com/wiki/Raul_Bautista"
+    ]
+  },
+  {
+    "id": "arma_008",
+    "name": "Beretta 92FS-inspired Pistol",
+    "category": "arma",
+    "subtype": "pistola",
+    "rarity": "raro",
+    "region": "Vice City Metro",
+    "x": 740,
+    "y": 370,
+    "position_precision": "aproximada",
+    "description": "Pistola baseada na Beretta 92FS/M9, vista em screenshots com Jason Duval. Design clássico militar/policial.",
+    "tip": "Bases militares, delegacias SWAT, spawn em veículos de lei. Ammu-Nation pós-certificação.",
+    "confidence": "media",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Weapons_in_GTA_VI#Handguns",
+      "https://gta.fandom.com/wiki/Jason_Duval"
+    ]
+  },
+  {
+    "id": "arma_009",
+    "name": "Double-barreled Shotgun",
+    "category": "arma",
+    "subtype": "shotgun",
+    "rarity": "raro",
+    "region": "Grassrivers",
+    "x": 380,
+    "y": 420,
+    "position_precision": "aproximada",
+    "description": "Espingarda de dois canos lado a lado (break-action), vista em screenshots oficiais na região de Grassrivers. Dano massivo à queima-roupa.",
+    "tip": "Casas de fazenda em Grassrivers, lojas de caça, cabanas de caçadores. Recarregamento lento (2 tiros).",
+    "confidence": "media",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Weapons_in_GTA_VI#Shotguns",
+      "https://gta.fandom.com/wiki/Grassrivers"
+    ]
+  },
+  {
+    "id": "arma_010",
+    "name": "MP5/40-inspired SMG",
+    "category": "arma",
+    "subtype": "smg",
+    "rarity": "raro",
+    "region": "Vice City Metro",
+    "x": 770,
+    "y": 330,
+    "position_precision": "aproximada",
+    "description": "Submetralhadora baseada no Heckler & Koch MP5/40, vista no Trailer 2. Cadência controlada, boa precisão.",
+    "tip": "SWAT, forças especiais, bases militares. Ammu-Nation nível alto. Drop de inimigos táticos em missões.",
+    "confidence": "media",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Weapons_in_GTA_VI#Submachine_guns",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Trailers#Trailer_2"
+    ]
+  },
+  {
+    "id": "arma_011",
+    "name": "Duke Carbine",
+    "category": "arma",
+    "subtype": "rifle",
+    "rarity": "raro",
+    "region": "Vice City Metro",
+    "x": 750,
+    "y": 350,
+    "position_precision": "aproximada",
+    "description": "Carabina de assalto (fabricante Duke, paródia da Colt/AR-15), vista em screenshots. Versão civil/militar leve.",
+    "tip": "Ammu-Nation (pós-história), bases militares, veículos de SWAT/BOPE. Personalizável com muitos acessórios.",
+    "confidence": "media",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Weapons_in_GTA_VI#Assault_rifles",
+      "https://gta.fandom.com/wiki/Grand_Theft_Auto_VI/Screenshots"
+    ]
+  },
+  {
+    "id": "arma_012",
+    "name": "Grenade Launcher",
+    "category": "arma",
+    "subtype": "pesada",
+    "rarity": "mitico",
+    "region": "Mount Kalaga",
+    "x": 250,
+    "y": 300,
+    "position_precision": "aproximada",
+    "description": "Lançador de granadas independente (estilo M32 MGL), 6 tiros. Arma pesada de destruição em área. Padrão da série + leaks.",
+    "tip": "Base militar em Mount Kalaga (área restrita, 5 estrelas). Bunkers, comboios militares. MUITO RARO.",
+    "confidence": "alta",
+    "verified": false,
+    "source_urls": [
+      "https://gta.fandom.com/wiki/Grenade_Launcher",
+      "https://gta.fandom.com/wiki/Mount_Kalaga_National_Park"
+    ]
+  }
+]

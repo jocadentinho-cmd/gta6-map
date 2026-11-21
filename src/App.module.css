@@ -1,0 +1,224 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--fonte-texto);
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--espacamento-3) var(--espacamento-5);
+  background: var(--papel);
+  border-bottom: var(--borda-grossa) solid var(--tinta);
+  z-index: var(--z-sticky);
+  gap: var(--espacamento-4);
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.logo {
+  font-family: var(--fonte-titulo);
+  font-weight: var(--peso-black);
+  font-size: var(--tamanho-xl);
+  color: var(--tinta);
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  transform: rotate(-1deg);
+}
+
+.tagline {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-bold);
+  color: var(--tinta-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transform: rotate(1deg);
+}
+
+.headerCenter {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: var(--espacamento-2);
+  flex-shrink: 0;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: var(--papel-escuro);
+  border: var(--borda-media) solid var(--tinta);
+  border-radius: var(--raio-medio);
+  color: var(--tinta);
+  transition: all var(--transicao-rapida);
+}
+
+.iconButton:hover {
+  background: var(--tinta);
+  color: var(--papel);
+}
+
+.iconButton:focus-visible {
+  outline: var(--borda-media) solid var(--turquesa);
+  outline-offset: 2px;
+}
+
+.suggestButton {
+  background: var(--tinta);
+  color: var(--papel);
+}
+
+.suggestButton:hover {
+  background: var(--turquesa);
+  border-color: var(--turquesa);
+  color: var(--tinta);
+}
+
+.main {
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+.mapWrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 80px);
+  min-height: 500px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 36px;
+  left: 0;
+  right: 0;
+  background: var(--tinta);
+  border-top: var(--borda-media) solid var(--tinta);
+  z-index: var(--z-sticky);
+  padding: var(--espacamento-3) var(--espacamento-5);
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacamento-1);
+  text-align: center;
+}
+
+.disclaimer {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  color: var(--papel);
+  opacity: 0.9;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espacamento-2);
+}
+
+.credits {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  color: var(--papel);
+  opacity: 0.6;
+  margin: 0;
+}
+
+.credits a {
+  color: var(--turquesa);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transicao-rapida);
+}
+
+.credits a:hover {
+  border-bottom-color: var(--turquesa);
+}
+
+.legal {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  color: var(--papel);
+  opacity: 0.4;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: var(--espacamento-2) var(--espacamento-3);
+  }
+
+  .logo {
+    font-size: var(--tamanho-lg);
+  }
+
+  .tagline {
+    font-size: 10px;
+  }
+
+  .headerCenter {
+    display: none;
+  }
+
+  .iconButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main {
+    padding-top: 70px;
+  }
+
+  .mapWrapper {
+    height: calc(100vh - 70px);
+  }
+
+  .footer {
+    bottom: 0;
+    border-radius: var(--raio-grande) var(--raio-grande) 0 0;
+    padding: var(--espacamento-2) var(--espacamento-3);
+  }
+
+  .footerContent {
+    gap: 2px;
+  }
+
+  .disclaimer,
+  .credits,
+  .legal {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .iconButton,
+  .suggestButton {
+    transition: none;
+  }
+}

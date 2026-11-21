@@ -1,0 +1,118 @@
+.listContainer {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-4);
+}
+
+.listHeader {
+  margin-bottom: var(--space-3);
+}
+
+.count {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--tinta);
+  opacity: 0.7;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
+  text-align: center;
+  gap: var(--space-3);
+  padding: var(--space-6);
+}
+
+.emptyIcon {
+  color: var(--ferrugem);
+  opacity: 0.5;
+}
+
+.emptyText {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--tinta);
+  margin: 0;
+}
+
+.emptyHint {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--tinta);
+  opacity: 0.6;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.categoryGroup {
+  background: var(--papel);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--tinta-10);
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-left: 4px solid var(--turquesa);
+  background: var(--tinta-05);
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: default;
+}
+
+.categoryIcon {
+  flex-shrink: 0;
+}
+
+.categoryLabel {
+  flex: 1;
+  color: var(--tinta);
+}
+
+.categoryCount {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--tinta);
+  opacity: 0.6;
+  background: var(--tinta-10);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.itemsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.itemsList:not(:empty) {
+  max-height: 1000px;
+  padding: var(--space-2) 0;
+}
+
+@media (max-width: 768px) {
+  .listContainer {
+    padding: var(--space-3);
+  }
+}

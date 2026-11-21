@@ -1,0 +1,68 @@
+.pinContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 36px;
+  height: 48px;
+  pointer-events: none;
+}
+
+.pinWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 36px;
+  height: 48px;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease-out, filter 0.2s ease-out;
+  transform-origin: center bottom;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.pinWrapper:hover {
+  transform: translateY(-4px) scale(1.1);
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4));
+  z-index: 100;
+}
+
+.pinWrapper:focus-visible {
+  outline: 3px solid var(--turquesa);
+  outline-offset: 4px;
+  border-radius: 50%;
+}
+
+.pinWrapper.selected {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 12px var(--pin-color)) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  z-index: 200;
+}
+
+.pinWrapper.comum {
+  --pin-color: currentColor;
+}
+
+.pinWrapper.raro {
+  --pin-color: #00B4D8;
+}
+
+.pinWrapper.mitico {
+  --pin-color: #FF006E;
+}
+
+.pinWrapper svg {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pinWrapper {
+    transition: none;
+  }
+  .pinWrapper:hover {
+    transform: none;
+  }
+  .pinWrapper.selected {
+    transform: none;
+  }
+}

@@ -1,0 +1,114 @@
+.sources {
+  border-top: var(--borda-fina) solid var(--tinta);
+  padding-top: var(--espacamento-4);
+}
+
+.sourcesTitle {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-bold);
+  color: var(--tinta-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 var(--espacamento-3);
+}
+
+.sourcesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacamento-2);
+}
+
+.sourceItem {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.sourceLink {
+  display: flex;
+  align-items: center;
+  gap: var(--espacamento-3);
+  padding: var(--espacamento-2) var(--espacamento-3);
+  background: var(--papel-escuro);
+  border: var(--borda-fina) solid var(--tinta);
+  border-radius: var(--raio-medio);
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transicao-rapida);
+}
+
+.sourceLink:hover {
+  border-color: var(--turquesa);
+  background: rgba(0, 180, 216, 0.05);
+}
+
+.sourceLink:focus-visible {
+  outline: var(--borda-media) solid var(--turquesa);
+  outline-offset: 2px;
+}
+
+.sourceIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--papel);
+  border: var(--borda-fina) solid var(--tinta);
+  border-radius: var(--raio-pequeno);
+  color: var(--tinta);
+  flex-shrink: 0;
+}
+
+.sourceInfo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sourceType {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-bold);
+  color: var(--turquesa);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sourceTitle {
+  font-family: var(--fonte-texto);
+  font-size: var(--tamanho-sm);
+  color: var(--tinta);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sourceTime {
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-xs);
+  color: var(--tinta-suave);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.externalIcon {
+  color: var(--tinta-suave);
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sourceLink {
+    transition: none;
+  }
+  .sourceItem {
+    opacity: 1;
+    transform: none;
+  }
+}
