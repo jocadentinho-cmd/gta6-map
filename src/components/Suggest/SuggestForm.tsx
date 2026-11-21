@@ -382,8 +382,11 @@ export function SuggestForm() {
                 <legend className={styles.legend}>Raridade (opcional)</legend>
                 <div className={styles.selectWrapper}>
                   <select
-                    value={formData.rarity || ''}
-                    onChange={(e) => handleChange('rarity', e.target.value || null)}
+                    value={formData.rarity ?? ''}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      handleChange('rarity', val === '' ? null : val);
+                    }}
                     className={styles.select}
                   >
                     <option value="">Selecione a raridade</option>
